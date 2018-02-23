@@ -1,11 +1,14 @@
 /*!
- * Start Bootstrap - Freelancer v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/freelancer)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
+ * Author: John Paul Sta Maria;
  */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow-x: hidden; }
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  overflow-x: hidden; 
+}
 
 p {
   font-size: 20px; }
@@ -27,7 +30,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase; }
 
@@ -68,14 +70,13 @@ hr.star-primary:after {
   margin: 0 auto; }
 
 section {
-  padding: 100px 0; }
+  padding: 100px 0; 
+}
   section h2 {
     font-size: 3em;
-    margin: 0; }
+    margin: 0; 
+  }
 
-section.success {
-  color: white;
-  background: #18BC9C; }
 
 @media (max-width: 767px) {
   section {
@@ -105,23 +106,24 @@ section.success {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  background: #2C3E50; }
+  background: #fff; 
+}
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {
     font-size: 1.1rem;
     color: white; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: white; }
+      color: blue; }
   #mainNav .navbar-nav {
     letter-spacing: 1px; }
     #mainNav .navbar-nav li.nav-item a.nav-link {
-      color: white; }
+      color: #333; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: #18BC9C;
+        color: blue;
         outline: none; }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-        color: white; }
+        color: blue; }
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
@@ -139,34 +141,41 @@ section.success {
     padding-bottom: 25px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
-    transition: padding-top 0.3s, padding-bottom 0.3s; }
+    transition: padding-top 0.3s, padding-bottom 0.3s; 
+  }
     #mainNav .navbar-brand {
       font-size: 2em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
-      transition: all 0.3s; }
+      transition: all 0.3s; 
+    }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-      color: white;
+      color: blue;
       border-radius: 3px;
-      background: #18BC9C; }
+    }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-        color: white;
-        background: #18BC9C; }
+        color: blue;
+       }
   #mainNav.navbar-shrink {
     padding-top: 10px;
-    padding-bottom: 10px; }
+    padding-bottom: 10px; 
+  }
     #mainNav.navbar-shrink .navbar-brand {
-      font-size: 1.5em; } }
+      font-size: 1.5em; 
+    }
+  }
 
 header.masthead {
   padding-top: 100px;
   padding-bottom: 50px;
   text-align: center;
-  color: white;
-  background: #18BC9C; }
-  header.masthead img {
-    display: block;
-    margin: 0 auto 20px; }
+  color: #333;
+  background: #fff; 
+}
+header.masthead img {
+  display: block;
+  margin: 0 auto 20px;
+ }
   header.masthead .intro-text .name {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 2em;
