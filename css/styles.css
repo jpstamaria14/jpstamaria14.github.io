@@ -218,6 +218,12 @@ footer .footer-below {
   }
 }
 
+@media (max-width: 991px) {
+  .navbar-nav {
+    margin-top: 15px;
+  }
+}
+
 @media (min-width: 768px) {
   header {
     padding: 200px 0;
@@ -255,9 +261,6 @@ footer .footer-below {
   }
   footer h3 {
     margin-bottom: 30px;
-  }
-  .navbar-nav {
-    margin-top: 15px;
   }
 }
 
