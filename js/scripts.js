@@ -39,5 +39,7 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  new WOW().init();
+
 
 })(jQuery); // End of use strict
