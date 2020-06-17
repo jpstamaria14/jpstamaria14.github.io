@@ -193,6 +193,16 @@ footer .footer-below {
   animation-name: pulse;
 }
 
+.profile-img {
+  background-image: url('../img/profile.png');
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid #1072b8;
+  margin: 20px auto;
+}
+
 
 @media (min-width: 992px) {
   #mainNav {
@@ -283,4 +293,10 @@ footer .footer-below {
   header .intro-text .skills {
     font-size: 20px; 
   } 
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
+
+  }
 }
